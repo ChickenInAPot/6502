@@ -181,4 +181,3 @@ touch only a few pages.
   Python tool; only one program can own the Mega's serial port.
 - **Result contains `sdp=1`:** the AT28C256 already had software data protection;
   the firmware detected it and used the protected-program sequence.
-

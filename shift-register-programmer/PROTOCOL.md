@@ -31,4 +31,3 @@ the original `WRITE` CRC protects the complete image.
 The optional `TRUST` flag may return `OK ... cache_hit=1` instead of `READY` if
 the requested range and image CRC match the record stored in the Mega's internal
 EEPROM. The host must not send page frames after a cache hit.
-
